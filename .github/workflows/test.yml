@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - uses: pixta-dev/repository-mirrorilng-action@v1
+      - uses: pixta-dev/repository-mirroring-action@v1.1.0
         with:
           target_repo_url:
             git@git.swmgit.org:swm-13-main/13_swm05/test.git
